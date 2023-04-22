@@ -6,6 +6,7 @@ public class UseBox {
         GearBox gearBox = new GearBox();
         gearBox.shiftUp();
         gearBox.shiftUp();
+        gearBox.shiftUp();
         System.out.println(gearBox.shiftRear());
     }
 }
