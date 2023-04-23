@@ -2,13 +2,17 @@ package org.example.treeSet;
 
 import org.example.tastProductHashSet.Task;
 
+import java.time.LocalDateTime;
+import java.util.ArrayList;
 import java.util.HashSet;
+import java.util.List;
 import java.util.TreeSet;
 
 public class Main {
     public static void main(String[] args) {
+
+
         TreeSet<Task> toDoList = new TreeSet<>(new ComparatorTask());
-        toDoList.clear();
 
         toDoList.add(new Task("feed the horse"));
 
