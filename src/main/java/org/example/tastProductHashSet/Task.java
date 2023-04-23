@@ -1,8 +1,6 @@
-package org.example.tastProduct;
+package org.example.tastProductHashSet;
 
 import lombok.Data;
-import lombok.Getter;
-import lombok.Setter;
 
 import java.time.LocalDateTime;
 import java.util.Objects;
@@ -17,7 +15,6 @@ public class Task {
     private boolean isDone;
 
     private static int countEquals;
-
 
     public static int getCountEquals() {
         return countEquals;
